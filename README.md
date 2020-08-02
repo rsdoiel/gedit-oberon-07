@@ -12,12 +12,13 @@ but based on Gnome/GTK documentation.
 ## Installation
 
 ```
-    git clone git@github.com:rsdoiel/gedit-oberon-7
+    git clone https://github.com/rsdoiel/gedit-oberon-7
     cd gedit-oberon-7
     mkdir -p $HOME/.local/share/gtksourceview-4/language-specs
     cp oberon-7.lang $HOME/.local/share/gtksource-view-4/language-specs/
     mkdir -p $HOME/.local/share/mime/packages
     cp overrides.xml $HOME/.local/share/mime/packages/
 ```
+
 
 [^spiveycorner]: See [Spivey's Corner](http://spivey.oriel.ox.ac.uk/corner/Syntax_highlighting_of_Oberon_code_(Imperative_Programming\))
