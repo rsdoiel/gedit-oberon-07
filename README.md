@@ -1,8 +1,8 @@
 
-# Gedit Oberon
+# Gedit, Oberon-7 Syntax Highlighting
 
 This is a set of files to provide Oberon-7 syntax highlighting in
-GEdit 3.  It is based on the work by Mike Spicy of Oxford[^spiveycorner].
+gedit (v3).  It is based on the work by Mike Spivey of Oxford[^spiveycorner].
 Mike also has a nice Oberon compiler :-) as well as the documentation
 on the GTK/Gnome site.
 
