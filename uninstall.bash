@@ -1,5 +1,8 @@
 #!/bin/bash
 
+MIME_PACKAGES=".local/share/mime/packages"
+GTKSOURCEVIEW=".local/share/gtksourceview-4"
+
 #
 # This is the installation file for Oberon-7 syntax highlighting
 # for Gedit.
@@ -15,6 +18,6 @@ function uninstall_file() {
 	fi
 }
 
-uninstall_file "${HOME}/.local/share/gtksourceview-4/language-specs" oberon-7.lang 
-uninstall_file "${HOME}/.local/share/mime/packages" overrides.xml 
-uninstall_file "${HOME}/.local/share/gtksourceview-4/styles" oberon-7-colors.xml
+uninstall_file "${HOME}/${MIME_PACKAGES}" overrides.xml 
+uninstall_file "${HOME}/${GTKSOURCEVIEW}/language-specs" oberon-7.lang 
+uninstall_file "${HOME}/${GTKSOURCEVIEW}/styles" sober.xml

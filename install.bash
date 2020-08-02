@@ -1,5 +1,8 @@
 #!/bin/bash
 
+MIME_PACKAGES=".local/share/mime/packages"
+GTKSOURCEVIEW=".local/share/gtksourceview-4"
+
 #
 # This is the installation file for Oberon-7 syntax highlighting
 # for Gedit.
@@ -20,6 +23,8 @@ function install_file() {
 	fi
 }
 
-install_file "${HOME}/.local/share/mime/packages" overrides.xml 
-install_file "${HOME}/.local/share/gtksourceview-4/language-specs" oberon-7.lang 
-install_file "${HOME}/.local/share/gtksourceview-4/styles" oberon-7-colors.xml
+install_file "${HOME}/${MIME_PACKAGES}" overrides.xml 
+install_file "${HOME}/${GTKSOURCEVIEW}/language-specs" oberon-7.lang 
+# This is Mike Spicy's color file
+install_file "${HOME}/${GTKSOURCEVIEW}/styles" sober.xml
+
