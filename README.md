@@ -13,12 +13,12 @@ on the GTK/Gnome site.
 
 ```
     git clone git@github.com:rsdoiel/gedit-oberon
-    mkdir -p $HOME/.local/share/gtksourceview-2.0/language-specs
-    cp oberon-7.lang $HOME/.local/share/gtksource-view-2.0/language-specs/
+    mkdir -p $HOME/.local/share/gtksourceview-4/language-specs
+    cp oberon-7.lang $HOME/.local/share/gtksource-view-4/language-specs/
     mkdir -p $HOME/.local/share/mime/packages
     cp overrides.xml $HOME/.local/share/mime/packages/
-    mkdir -p $HOME/.local/share/gtksourceview-2.0/styles
-    cp oberon-7-colors.xml $HOME/.local/share/gtksourceview-2.0/styles
+    mkdir -p $HOME/.local/share/gtksourceview-4/styles
+    cp sober.xml $HOME/.local/share/gtksourceview-4/styles
 ```
 
 
