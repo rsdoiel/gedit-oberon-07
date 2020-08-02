@@ -22,4 +22,4 @@ on the GTK/Gnome site.
 ```
 
 
-[spivycorner]: See http://spivey.oriel.ox.ac.uk/corner/Syntax_highlighting_of_Oberon_code_(Imperative_Programming)
+[^spivycorner]: See http://spivey.oriel.ox.ac.uk/corner/Syntax_highlighting_of_Oberon_code_(Imperative_Programming)
