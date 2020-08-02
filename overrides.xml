@@ -1,0 +1,6 @@
+<mime-info>
+<mime-type type="text/x-oberon">
+<comment>Oberon-7 source code</comment>
+<glob pattern="*.Mod"/>
+</mime-type>
+</mime-info>
