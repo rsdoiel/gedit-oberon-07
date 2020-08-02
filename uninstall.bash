@@ -20,4 +20,4 @@ function uninstall_file() {
 
 uninstall_file "${HOME}/${MIME_PACKAGES}" overrides.xml 
 uninstall_file "${HOME}/${GTKSOURCEVIEW}/language-specs" oberon-7.lang 
-uninstall_file "${HOME}/${GTKSOURCEVIEW}/styles" sober.xml
+uninstall_file "${HOME}/${GTKSOURCEVIEW}/styles" socal.xml

@@ -25,6 +25,5 @@ function install_file() {
 
 install_file "${HOME}/${MIME_PACKAGES}" overrides.xml 
 install_file "${HOME}/${GTKSOURCEVIEW}/language-specs" oberon-7.lang 
-# This is Mike Spicy's color file
-install_file "${HOME}/${GTKSOURCEVIEW}/styles" sober.xml
+install_file "${HOME}/${GTKSOURCEVIEW}/styles" socal.xml
 
