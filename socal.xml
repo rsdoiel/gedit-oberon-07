@@ -3,6 +3,7 @@
   <author>R. S. Doiel</author>
   <description>Robert's color preferences</description>
 
+  <!-- color names based on https://en.wikipedia.org/wiki/Web_colors -->
   <color name="white"                       value="#FFFFFF"/>
   <color name="silver"                      value="#C0C0C0"/>
   <color name="grey"                        value="#808080"/>
@@ -24,10 +25,10 @@
   <color name="dark-red"                    value="#800000"/>
   <color name="dark-green"                  value="#008000"/>
 
-  <style name="current-line"                background="aqua"/>
-  <style name="right-margin"                background="olive"/>
-  <style name="bracket-match"               background="dark-blue" bold="true"/>
-  <style name="bracket-mismatch"            background="red" bold="true"/>
+  <style name="current-line"                background="#00FFFF"/>
+  <style name="right-margin"                background="#808000"/>
+  <style name="bracket-match"               background="#FF00FF" bold="true"/>
+  <style name="bracket-mismatch"            background="#FF0000" bold="true"/>
 
   <!-- Search Matching -->
   <style name="search-match"                background="yellow"/>
@@ -45,6 +46,9 @@
   <style name="def:shebang"                 foreground="grey" bold="true"/>
   <style name="def:doc-comment"             foreground="blue"/>
   <style name="def:doc-comment-element"     bold="true"/>
+
+  <~- Keywords -->
+  <style name="def:keyword"                 foregrouand="navy"/>
 
   <!-- Constants -->
   <style name="def:constant"                />
