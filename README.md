@@ -1,24 +1,28 @@
 
-# Gedit, Oberon-7 Syntax Highlighting
+Gedit, Oberon-7 Syntax Highlighting
+===================================
 
 This is a set of files to provide Oberon-7 syntax highlighting in
-gedit (v3).  It is inspired by work done by Mike Spivey of Oriel College, Oxford[^spiveycorner]
+gedit (v3).  It is inspired by work done by Mike Spivey of Oriel College, Oxford[^1]
 but based on Gnome/GTK documentation.
 
 + https://developer.gnome.org/gtksourceview/stable/lang-tutorial.html
 + https://developer.gnome.org/gtksourceview/stable/lang-reference.html
 
 
-## Installation
+Installation
+------------
 
-```
+~~~
+
     git clone https://github.com/rsdoiel/gedit-oberon-7
     cd gedit-oberon-7
     mkdir -p $HOME/.local/share/gtksourceview-4/language-specs
-    cp oberon-7.lang $HOME/.local/share/gtksource-view-4/language-specs/
+    cp oberon-7.lang $HOME/.local/share/gtksourceview-4/language-specs/
     mkdir -p $HOME/.local/share/mime/packages
     cp overrides.xml $HOME/.local/share/mime/packages/
-```
+
+~~~
 
 
-[^spiveycorner]: See [Spivey's Corner](http://spivey.oriel.ox.ac.uk/corner/Syntax_highlighting_of_Oberon_code_(Imperative_Programming\))
+[^1]: See [Spivey's Corner](http://spivey.oriel.ox.ac.uk/corner/Syntax_highlighting_of_Oberon_code_(Imperative_Programming\))
