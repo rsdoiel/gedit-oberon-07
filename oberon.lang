@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language id="oberon7" name="Oberon-7" version="2.0" _section="Source">
+<language id="oberon" name="Oberon" version="2.0" _section="Source">
   <metadata>
     <property name="mimetypes">text/x-oberon;text/x-oberon-src</property>
     <property name="globs">*.Mod</property>
@@ -12,7 +12,7 @@
     <style id="type" name="Data Type" map-to="def:type"/>
   </styles>
   <definitions>
-    <context id="oberon7">
+    <context id="oberon">
       <include>
 
         <context id="comment" style-ref="comment">
