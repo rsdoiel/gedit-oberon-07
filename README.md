@@ -1,8 +1,8 @@
 
-Gedit, Oberon-7 Syntax Highlighting
+Gedit, Oberon-07 Syntax Highlighting
 ===================================
 
-This is a set of files to provide Oberon-7 syntax highlighting in
+This is a set of files to provide Oberon-07 syntax highlighting in
 gedit (v3).  It is inspired by work done by Mike Spivey of Oriel College, 
 Oxford[^1] and based on Gnome/GTK documentation.
 
@@ -25,10 +25,10 @@ be available in the editor.
 
 ~~~
 
-    git clone https://github.com/rsdoiel/gedit-oberon-7
-    cd gedit-oberon-7
+    git clone https://github.com/rsdoiel/gedit-Oberon-07
+    cd gedit-Oberon-07
     mkdir -p $HOME/.local/share/gtksourceview-4/language-specs
-    cp oberon-7.lang $HOME/.local/share/gtksourceview-4/language-specs/
+    cp Oberon-07.lang $HOME/.local/share/gtksourceview-4/language-specs/
     mkdir -p $HOME/.local/share/mime/packages
     cp overrides.xml $HOME/.local/share/mime/packages/
 
